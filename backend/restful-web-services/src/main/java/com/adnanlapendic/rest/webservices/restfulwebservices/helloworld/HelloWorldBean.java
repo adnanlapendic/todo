@@ -1,4 +1,4 @@
-package com.adnanlapendic.rest.webservices.restfulwebservices;
+package com.adnanlapendic.rest.webservices.restfulwebservices.helloworld;
 
 public class HelloWorldBean {
 

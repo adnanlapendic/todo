@@ -1,4 +1,4 @@
-package com.adnanlapendic.rest.webservices.restfulwebservices;
+package com.adnanlapendic.rest.webservices.restfulwebservices.helloworld;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +16,7 @@ public class HalloWordController {
 
     @GetMapping(path = "/hello-world-bean")
     public HelloWorldBean halloWorldBean() {
+//        throw  new RuntimeException("Some Error has Happened.");
         return new HelloWorldBean("Hello World");
     }
 
