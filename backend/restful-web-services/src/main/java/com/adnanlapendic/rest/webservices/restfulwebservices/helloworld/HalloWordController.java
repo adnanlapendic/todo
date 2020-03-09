@@ -1,5 +1,6 @@
 package com.adnanlapendic.rest.webservices.restfulwebservices.helloworld;
 
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,4 +25,5 @@ public class HalloWordController {
     public HelloWorldBean HelloWorldPathVariable(@PathVariable String name) {
         return new HelloWorldBean(String.format("Hello World, %s", name));
     }
+
 }
